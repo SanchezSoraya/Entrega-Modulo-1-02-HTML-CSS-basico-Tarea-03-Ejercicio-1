@@ -1,0 +1,253 @@
+@import 'https://fonts.googleapis.com/css?family=UnifrakturMaguntia';
+* {
+    margin: 0 auto;
+}
+
+body {
+    width: 92%;
+    max-width: 900px;
+    overflow-x: hidden;
+    background: url(http://www.designals.net/wp-content/uploads/2011/09/PaperTexture-21.jpg);
+    background-size: cover;
+}
+
+.encabezado {
+    height: 20px;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#iniciocontenido {
+    margin: 0 auto;
+    max-width: 850px;
+    background-color: #DEB887;
+}
+
+.titulo1 {
+    font-size: 14vh;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'unifrakturMaguntia', cursive;
+    color: #000000;
+    font-size: 50px;
+}
+
+.inicio {
+    height: 40px;
+    border: solid 1px gray;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.inicio ul {
+    width: 100%;
+    margin-left: -40px;
+}
+
+.inicio ul li {
+    display: inline-flex;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.titulo2 {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 5.4vh;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 3.6vh;
+    margin-bottom: 9px;
+    text-transform: uppercase;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+div,
+h2,
+p,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    margin: 0 auto;
+    max-width: 1040px;
+    padding: 20px;
+}
+
+.columns {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.main-column {
+    flex: 3;
+    width: 130px;
+}
+
+.nested-column {
+    flex: 2;
+}
+
+.article {
+    background: white;
+    color: #666;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-basis: auto;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+.article-image {
+    background: #eee;
+    display: block;
+    padding-top: 75%;
+    position: relative;
+    width: 100%;
+}
+
+.article-image img {
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.article-image.is-3by2 {
+    padding-top: 66.6666%;
+    width: 100%;
+}
+
+.article-image2 img {
+    width: 100%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.article-image3 img {
+    width: 100%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.article-image4 img {
+    width: 100%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.article-image.is-16by9 {
+    padding-top: 56.25%;
+}
+
+.article-body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.article-title {
+    color: #333;
+    flex-shrink: 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.article-content {
+    margin-top: 5px;
+    text-align: justify;
+}
+
+.article-info {
+    display: flex;
+    font-size: 0.85em;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.article1 {
+    background: white;
+    color: #666;
+    flex-direction: column;
+    flex-basis: auto;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    border-radius: 3px;
+}
+
+.article-body1 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.article2 {
+    background: white;
+    color: #666;
+    flex-direction: column;
+    flex-basis: auto;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    border-radius: 3px;
+}
+
+.article3 {
+    background: white;
+    color: #666;
+    flex-direction: column;
+    flex-basis: auto;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    border-radius: 3px;
+}
+
+.article4 {
+    background: white;
+    color: #666;
+    flex-direction: column;
+    flex-basis: auto;
+    margin: 20px;
+    border-radius: 3px;
+}
+
+h2 {
+    text-align: center;
+}
